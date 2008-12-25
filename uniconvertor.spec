@@ -5,7 +5,7 @@
 
 Name:           uniconvertor
 Version:        1.1.3
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Universal vector graphics translator
 
 Group:          Graphics
