@@ -4,10 +4,9 @@
 
 
 Name:           uniconvertor
-Version:        1.1.3
-Release:        %mkrel 3
+Version:        1.1.4
+Release:        %mkrel 1
 Summary:        Universal vector graphics translator
-
 Group:          Graphics
 License:        LGPLv2+ and GPLv2+ and MIT
 URL:            http://sk1project.org/modules.php?name=Products&product=uniconvertor
@@ -16,7 +15,6 @@ Patch0:         UniConvertor-1.1.0-simplify.patch
 Patch1:         UniConvertor-1.1.1-rename-in-help.patch
 Patch2:         UniConvertor-1.1.1-use-exec.patch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-
 BuildRequires:  python-devel
 Requires:       python-imaging
 Requires:       python-reportlab
@@ -29,8 +27,8 @@ It uses sK1 engine to convert one format to another.
 %prep
 %setup -q -n UniConvertor-%{version}
 %patch0 -p1 -b .simplify
-%patch1 -p1 -b .rename-in-help
-%patch2 -p1 -b .use-exec
+#%patch1 -p1 -b .rename-in-help
+#%patch2 -p1 -b .use-exec
 
 # Prepare for inclusion into documentation part
 install -p -m644 src/COPYRIGHTS COPYRIGHTS
