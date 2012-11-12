@@ -1,0 +1,12 @@
+Index: uniconvertor-1.1.5/setup.py
+===================================================================
+--- uniconvertor-1.1.5/setup.py
++++ uniconvertor-1.1.5/setup.py	2012-01-30 01:46:06.983608916 +0200
+@@ -97,6 +97,7 @@
+ 	skmod_module = Extension('uniconvertor.app.modules._sketch',
+ 			define_macros = [('MAJOR_VERSION', '1'),
+ 						('MINOR_VERSION', '1')],
++			libraries = ['m'],
+ 			sources = [skmod_src+'_sketchmodule.c', skmod_src+'skpoint.c', skmod_src+'skcolor.c', 
+ 					skmod_src+'sktrafo.c', skmod_src+'skrect.c', skmod_src+'skfm.c', 
+ 					skmod_src+'curvefunc.c', skmod_src+'curveobject.c', skmod_src+'curvelow.c', 
