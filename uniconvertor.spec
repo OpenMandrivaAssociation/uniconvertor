@@ -3,7 +3,7 @@
 
 Name:           uniconvertor
 Version:        1.1.5
-Release:        %mkrel 4
+Release:        5
 Summary:        Universal vector graphics translator
 Group:          Graphics
 License:        LGPLv2+ and GPLv2+ and MIT
