@@ -7,7 +7,7 @@ Release:        6
 Summary:        Universal vector graphics translator
 Group:          Graphics
 License:        LGPLv2+ and GPLv2+ and MIT
-URL:            http://sk1project.org/modules.php?name=Products&product=uniconvertor
+URL:            https://sk1project.org/modules.php?name=Products&product=uniconvertor
 Source0:        http://uniconvertor.googlecode.com/files/%{name}-%{version}.tar.gz
 Patch0:         uniconvertor-underlinking.patch
 BuildRequires:  python2-devel
